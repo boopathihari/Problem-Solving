@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "minSwap",
+            "request": "launch",
+            "mainClass": "minSwap",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "miniSum",
+            "request": "launch",
+            "mainClass": "miniSum",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CountInversion",
+            "request": "launch",
+            "mainClass": "CountInversion",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "MergeInterval",
+            "request": "launch",
+            "mainClass": "MergeInterval",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "Rearrangearray",
+            "request": "launch",
+            "mainClass": "Rearrangearray",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "ThreeSum",
+            "request": "launch",
+            "mainClass": "ThreeSum",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "nextPermutation",
+            "request": "launch",
+            "mainClass": "nextPermutation",
+            "projectName": "Hello_5a18f1be"
+        }
+    ]
+}
