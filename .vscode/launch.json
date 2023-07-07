@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "div",
+            "request": "launch",
+            "mainClass": "div",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "palindrome",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
             "name": "minSwap",
             "request": "launch",
             "mainClass": "minSwap",
