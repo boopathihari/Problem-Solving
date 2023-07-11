@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "spirally",
+            "request": "launch",
+            "mainClass": "spirally",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
             "name": "min2array",
             "request": "launch",
             "mainClass": "min2array",
