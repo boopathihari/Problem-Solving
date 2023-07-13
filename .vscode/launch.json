@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveDup",
+            "request": "launch",
+            "mainClass": "RemoveDup",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicate",
+            "request": "launch",
+            "mainClass": "RemoveDuplicate",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "Search2dArray",
+            "request": "launch",
+            "mainClass": "Search2dArray",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "spiralarray2",
+            "request": "launch",
+            "mainClass": "spiralarray2",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
             "name": "spirally",
             "request": "launch",
             "mainClass": "spirally",
