@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RotateMatrix",
+            "request": "launch",
+            "mainClass": "RotateMatrix",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "RowWithmax",
+            "request": "launch",
+            "mainClass": "RowWithmax",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "RowMax1",
+            "request": "launch",
+            "mainClass": "RowMax1",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
             "name": "RemoveDup",
             "request": "launch",
             "mainClass": "RemoveDup",
