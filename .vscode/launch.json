@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindKth",
+            "request": "launch",
+            "mainClass": "FindKth",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
             "name": "RotateMatrix",
             "request": "launch",
             "mainClass": "RotateMatrix",
