@@ -51,26 +51,12 @@ class Solution
             return false;
         }
         
-         String temp = "";
+         String s3 = s1+s1;
         
-        for(int i=0; i<s1.length(); i++){
-            
-            for(int j=i+1;j<s1.length() ;j++){
-                    temp += s1.charAt(j);
-            }
-
-            
-             temp = temp.concat(s1.substring(0,i+1));
+         if(s3.contains(s2)){
+             return true;
+         }
         
-            
-            if(temp.equals(s2)){
-                return true;
-
-            }else{
-                temp = "";
-            }
-            
-        }
         
         return false;
     }
