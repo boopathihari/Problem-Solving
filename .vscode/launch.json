@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RotationString",
+            "request": "launch",
+            "mainClass": "RotationString",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "Server",
+            "request": "launch",
+            "mainClass": "SandW.Server",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
             "name": "FindKth",
             "request": "launch",
             "mainClass": "FindKth",
