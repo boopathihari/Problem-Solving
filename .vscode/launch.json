@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestPalindrome",
+            "request": "launch",
+            "mainClass": "LongestPalindrome",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "CountAndSay",
+            "request": "launch",
+            "mainClass": "CountAndSay",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
             "name": "RotationString",
             "request": "launch",
             "mainClass": "RotationString",
