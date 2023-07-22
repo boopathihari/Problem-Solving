@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "reverseStr",
+            "request": "launch",
+            "mainClass": "reverseStr",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
             "name": "LongestPalindrome",
             "request": "launch",
             "mainClass": "LongestPalindrome",
