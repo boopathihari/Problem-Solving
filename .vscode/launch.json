@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestPlai",
+            "request": "launch",
+            "mainClass": "LongestPlai",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
             "name": "reverseStr",
             "request": "launch",
             "mainClass": "reverseStr",
