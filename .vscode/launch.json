@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Binary",
+            "request": "launch",
+            "mainClass": "Binary",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "Permutation",
+            "request": "launch",
+            "mainClass": "Permutation",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
             "name": "LongestPlai",
             "request": "launch",
             "mainClass": "LongestPlai",
