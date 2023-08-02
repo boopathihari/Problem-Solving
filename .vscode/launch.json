@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "param",
+            "request": "launch",
+            "mainClass": "param",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "Next",
+            "request": "launch",
+            "mainClass": "Next",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
             "name": "Binary",
             "request": "launch",
             "mainClass": "Binary",
