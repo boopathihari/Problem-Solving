@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongSP",
+            "request": "launch",
+            "mainClass": "LongSP",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "Rabin",
+            "request": "launch",
+            "mainClass": "Rabin",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
             "name": "param",
             "request": "launch",
             "mainClass": "param",
