@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "prime",
+            "request": "launch",
+            "mainClass": "prime",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "countReversal",
+            "request": "launch",
+            "mainClass": "countReversal",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
             "name": "LongSP",
             "request": "launch",
             "mainClass": "LongSP",

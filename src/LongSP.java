@@ -2,7 +2,7 @@ import java.util.*;
 
 public class LongSP {
 
-    int lps(String s) {
+    static int lps(String s) {
         // code here
          int n = s.length();
         int[] arr = new int[n];
@@ -30,6 +30,7 @@ public class LongSP {
     }
 
     public static void main(String[] args) {
-        lps("abcefabeabc");
+       int sol = lps("abbcefabbeabc");
+        System.out.println(sol);
     }
 }
