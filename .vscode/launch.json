@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Search",
+            "request": "launch",
+            "mainClass": "Search",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
             "name": "prime",
             "request": "launch",
             "mainClass": "prime",
