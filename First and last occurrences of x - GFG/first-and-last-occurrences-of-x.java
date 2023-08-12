@@ -18,42 +18,56 @@ class GFG
         // code here
         ArrayList<Long> list = new ArrayList<>();
         
+        
+        int f = first(arr,n,x);
+        int l = second(arr,n,x);
+        
+        list.add((long)f);
+        list.add((long)l);
+        
+        return list;
+    }
+    
+    
+    int first(long arr[], int n, int x){
         int l=0,r=n-1;
-        int mid;
-
-
+        int mid,first=-1;
+        
         while (l <= r) {
             mid = (l + r) / 2;
 
             if(arr[mid] == x){
-                int i=mid,j=mid;
-                
-
-                while (i>-1 && arr[i] == x) {
-                    i--;
-                }
-                 list.add((long)i+1);
-
-               while (j < n && arr[j] == x) {
-                    j++;
-                }
-                list.add((long)j-1);
-
-                break;
-            }
-
-            if(arr[mid] < x){
+                first = mid;
+                r = mid-1;
+            }else if(arr[mid] < x){
                 l = mid+1;
             }else{
                 r = mid-1;
             }
         }
-        if(list.isEmpty())
-             list.add((long)-1);
-             list.add((long)-1);
-        return list;
+        
+        return first;
     }
     
+    int second(long arr[], int n, int x){
+         int l=0,r=n-1;
+        int mid,last=-1;
+        
+        while (l <= r) {
+            mid = (l + r) / 2;
+
+            if(arr[mid] == x){
+                last = mid;
+                l = mid+1;
+            }else if(arr[mid] < x){
+                l = mid+1;
+            }else{
+                r = mid-1;
+            }
+        }
+        
+        return last;
+    }
     
     
 }
