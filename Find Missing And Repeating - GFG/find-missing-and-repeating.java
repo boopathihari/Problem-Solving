@@ -32,8 +32,8 @@ class GFG {
 class Solve {
     int[] findTwoElement(int arr[], int n) {
         // code here
-    int[] ar = new int[2];
-        int flag=0,j=n;
+     int[] ar = new int[2];
+        int flag1=0,flag2=0,j=n;
 
         Arrays.sort(arr);
 
@@ -41,39 +41,34 @@ class Solve {
         //     System.out.println(arr[i]);
         // }
 
-        for (int i=0;i<n;i++) {
+        for (int i = n-1; i > 0; i--) {
             // Duplicate number
-            if(i+1<n&&arr[i] == arr[i+1]){
-                ar[0]=arr[i];
-                if(flag==1)
-                    break;
-                if(arr[i]!=i+1)
-                {
-                    ar[1]=i+1;
-                    break;
-                }
-                i++;
-                flag=1;
+            if(arr[i] == arr[i-1]){
+                ar[0] = arr[i];
+                i--;  
+                flag1=1;
             }
 
             // Missing number
-            if(flag==0&&arr[i]!=i+1)
-            {
-                ar[1]=i+1;
-                flag=1;
-            }
-            else if(flag==1&&arr[i]==i+1)
-            {
-                ar[1]=i;
-                break;
+            if(flag2 == 0 && j != arr[i]){
+                ar[1] = j;
+                flag2=1;
+            }else{
+                j--;
             }
         }
-        if(ar[1]==0)
-            ar[1]=n;
         // System.out.println(j);
 
 
+        if(flag2 != 1){
+            if(arr[0] != 1){
+                ar[1] = 1; 
+            }else{
+                ar[1] = j;
+            }
+        }
 
         return ar;
+
     }
 }
