@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Stickler",
+            "request": "launch",
+            "mainClass": "Stickler",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "MajorityEle",
+            "request": "launch",
+            "mainClass": "MajorityEle",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "Repeat",
+            "request": "launch",
+            "mainClass": "Repeat",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "countSqrt",
+            "request": "launch",
+            "mainClass": "countSqrt",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
+            "name": "Search2",
+            "request": "launch",
+            "mainClass": "Search2",
+            "projectName": "Hello_5a18f1be"
+        },
+        {
+            "type": "java",
             "name": "Search",
             "request": "launch",
             "mainClass": "Search",
